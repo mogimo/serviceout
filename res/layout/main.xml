@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    
+    <RelativeLayout android:id="@+id/titlebar"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@color/title">
+
+        <TextView
+            android:id="@+id/guide"
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/app_full_name"
+            android:textColor="#FFFFFFFF"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold"/>
+        
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/setting_button" />
+
+        <ImageButton android:id="@+id/setting_button"
+            android:background="@null"
+            android:src="@drawable/setting"
+            android:contentDescription="@string/setting"
+            android:layout_width="@android:dimen/app_icon_size"
+            android:layout_height="@android:dimen/app_icon_size"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="8dp"
+            android:layout_gravity="center_vertical"
+            android:layout_toLeftOf="@+id/reload_button"
+            android:scaleType="fitCenter" />
+
+        <ImageButton android:id="@+id/reload_button"
+            android:background="@null"
+            android:src="@drawable/reload"
+            android:contentDescription="@string/reload"
+            android:layout_width="@android:dimen/app_icon_size"
+            android:layout_height="@android:dimen/app_icon_size"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="8dp"
+            android:layout_gravity="center_vertical"
+            android:scaleType="fitCenter"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+    <FrameLayout android:id="@+id/listContainer"
+            android:layout_below="@+id/titlebar"
+            android:layout_alignParentBottom="true"
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content">
+        <ListView android:id="@android:id/list"
+                android:layout_width="fill_parent" 
+                android:layout_height="fill_parent"
+                android:drawSelectorOnTop="false" />
+    </FrameLayout> 
+</RelativeLayout>

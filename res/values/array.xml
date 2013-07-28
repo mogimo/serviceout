@@ -1,0 +1,6 @@
+<resources>
+    <string-array name="select_dialog_items">
+        <item>@string/normal</item>
+        <item>@string/advanced</item>
+    </string-array>
+</resources>

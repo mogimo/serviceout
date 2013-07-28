@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Service Out</string>
+    <string name="app_full_name">Service Out</string>
+    <string name="radio_title">ネットワーク接続履歴</string>
+    <string name="score_str">スコア</string>
+    <string name="enable">有効にする</string>
+    <string name="disable">無効にする</string>
+    <string name="stop">停止</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="button">ボタン</string>
+    <string name="wait_msg">しばらくお待ちください</string>    
+    <string name="unknown">不明</string>
+    <string name="warning_title">お読みください</string>
+    <string name="normal">通常表示</string>
+    <string name="advanced">詳細表示</string>
+    <string name="setting">設定</string>
+    <string name="reload">更新</string>    
+    <string name="choice">表示切替</string>
+    <string name="app_icon_description">アプリケーション アイコン</string>
+    <string name="nothing">ネットワークへの接続履歴がありません</string>
+    <string name="warning">動作を止めたいアプリケーショ\nンを選択し「強制停止」もしく\nは「無効にする」を選びます。\nただし、アプリケーションによ\nっては正常に動作しない場合が\nあります。 問題がある場合は、\n再び有効にするか、ランチャー\nからアプリケーションを起動す\nると停止を解除できます。</string>
+    <string name="dont_show">"  以後表示しない"</string>
+    <string name="close">閉じる</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Service Out</string>
+    <string name="app_full_name">Service Out</string>
+    <string name="button">Button</string>
+    <string name="wait_msg">Please wait</string>    
+    <string name="unknown">Unknown</string>
+    <string name="radio_title">Network Connection Log</string>
+    <string name="score_str">score: </string>
+    <string name="warning_title">Read this first</string>
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
+    <string name="stop">Stop</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="normal">Normal mode</string>
+    <string name="advanced">Advanced mode</string>
+    <string name="setting">Setting</string>
+    <string name="reload">Reload</string>    
+    <string name="choice">Select mode</string>
+    <string name="app_icon_description">Application Icon</string>
+    <string name="nothing">No connection history to any network</string>
+    <string name="warning">Select applications and click "Force stop" or "Disable".
+        However force stopping an application may cause it to misbehave.
+        So you must select carefully. \n\nYou can start again the application from 
+        Home Launcher if you stop it.\n</string>
+    <string name="dont_show">"  Don\'t show this anymore"</string>
+    <string name="close">Close</string>
+</resources>
